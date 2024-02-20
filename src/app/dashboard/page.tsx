@@ -8,7 +8,7 @@ type DashboardProps = {
   children?: React.ReactNode
 }
 
-const Dashboard = (props: DashboardProps) => {
+const Dashboard: React.FC<DashboardProps> = ({ children }) => {
   return (
     <DashboardPage>
       <DashBoardHeader greeting="Welcome Back, user" title="Dashboard" />
