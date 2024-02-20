@@ -4,11 +4,7 @@ import TopDashCards from '@/components/TopDashCards'
 import BarChart from '@/components/BarChart'
 import RecentOrders from '@/components/RecentOrders'
 
-type DashboardProps = {
-  children?: React.ReactNode
-}
-
-const Dashboard = ({ children }: DashboardProps) => {
+const Dashboard = () => {
   return (
     <DashboardPage>
       <DashBoardHeader greeting="Welcome Back, user" title="Dashboard" />
