@@ -5,7 +5,7 @@ import BarChart from '@/components/BarChart'
 import RecentOrders from '@/components/RecentOrders'
 
 type DashboardProps = {
-  children?: React.ReactNode
+  children: React.ReactNode
 }
 
 const Dashboard: React.FC<DashboardProps> = ({ children }) => {
